@@ -1,0 +1,30 @@
+
+env:
+  bcNodeWsURI: ws://192.168.31.2:11011
+  bcNodeRpcURI: http://192.168.31.2:11011
+  bcWalletRpcURI: http://192.168.31.2:8091
+  scanRpcAppPackage: com.tsc.service.base.rpcApp
+  scanRpcWalletPackage: com.tsc.service.base.rpcWallet
+
+  wsPort: 8887
+  faucetPwd: 123456
+  faucetRegAcct: faucet
+  faucetRefAcct: faucet
+  faucetRefPerct: 0
+
+
+
+#========================================================================
+server:
+  context-path: /
+  port: 9080
+#========================================================================
+debug: true
+logging:
+  level: info
+  path: /logs/
+  pattern.:
+    console: "%d{yyyy-MM-dd HH:mm:ss,SSS} [%class:%line] - %m%n"
+#========================================================================
+endpoints:
+  enabled: false

@@ -10,7 +10,7 @@ spring:
   jpa:
     show-sql: true
     generate-ddl: false
-    database-platform : com.tsc.jsonb.dialect.JSONBPostgreSQLDialect
+#    database-platform : com.tsc.jsonb.dialect.JSONBPostgreSQLDialect
   aop:
     proxy-target-class: true
     auto: true

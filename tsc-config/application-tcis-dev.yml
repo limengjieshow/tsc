@@ -1,0 +1,58 @@
+#========================================================================
+
+spring:
+
+  datasource:
+    url: jdbc:postgresql://pgsql.tangsheng.com:9999/db_tsc
+    username: postgres
+    password: 123456
+    driverClassName: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    generate-ddl: false
+    database-platform : com.tsc.jsonb.dialect.JSONBPostgreSQLDialect
+  aop:
+    proxy-target-class: true
+    auto: true
+redis:
+  port: 6379
+  timeout: 6000
+  host: redis.tangsheng.com
+
+  pool:
+    maxTotal: 5000
+    #最大能够保持idel状态的对象数
+    maxIdle: 5000
+    #当池内没有返回对象时，最大等待时间
+    maxWait: 3000
+    #当调用borrow Object方法时，是否进行有效性检查
+    testOnBorrow: true
+    #当调用return Object方法时，是否进行有效性检查
+    testOnReturn: true
+
+#创蓝短息常量
+phone:
+  engine: true
+  sms:
+    serverurl: http://222.73.117.156/msg/index.jsp
+    username: vip-td-tz
+    password: Tdjr888888
+  voice:
+    username: vip-yuyin
+    password: Tdjr888888
+    serverurl: http://222.73.117.156/msg/index.jsp
+
+#========================================================================
+server:
+  context-path: /
+  port: 8080
+#========================================================================
+debug: true
+logging:
+  level: info
+  path: /logs/
+  pattern.:
+    console: "%d{yyyy-MM-dd HH:mm:ss,SSS} [%class:%line] - %m%n"
+#========================================================================
+endpoints:
+  enabled: false

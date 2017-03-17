@@ -3,7 +3,7 @@
 spring:
 
   datasource:
-    url: jdbc:postgresql://pgsql.tangsheng.com:9999/db_tsc
+    url: jdbc:postgresql://pgsql.tangsheng.com:9999/db_tcis
     username: postgres
     password: 123456
     driverClassName: org.postgresql.Driver

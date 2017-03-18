@@ -43,9 +43,9 @@ phone:
 
 #========================================================================
 ghb:
-  apiUrl_dev: http://183.63.131.106:40015/extServiceTest/ghbExtService.do
-  apiUrl_sit: http://183.63.131.106:40011/extService/ghbExtService.do
-  apiUrl_uat: http://183.63.131.106:40013/extService/ghbExtService.do
+  apiurldev: http://183.63.131.106:40015/extServiceTest/ghbExtService.do
+  apiurlsit: http://183.63.131.106:40011/extService/ghbExtService.do
+  apiurluat: http://183.63.131.106:40013/extService/ghbExtService.do
     
 #========================================================================
 server:

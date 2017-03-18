@@ -1,7 +1,6 @@
 #========================================================================
 
 spring:
-
   datasource:
     url: jdbc:postgresql://pgsql.tangsheng.com:9999/db_tcis
     username: postgres
@@ -42,6 +41,12 @@ phone:
     password: Tdjr888888
     serverurl: http://222.73.117.156/msg/index.jsp
 
+#========================================================================
+ghb:
+    apiUrl_dev: http://183.63.131.106:40015/extServiceTest/ghbExtService.do
+    apiUrl_sit: http://183.63.131.106:40011/extService/ghbExtService.do
+    apiUrl_uat: http://183.63.131.106:40013/extService/ghbExtService.do
+    
 #========================================================================
 server:
   context-path: /

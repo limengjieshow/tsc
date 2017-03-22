@@ -58,5 +58,3 @@ logging:
   pattern.:
     console: "%d{yyyy-MM-dd HH:mm:ss,SSS} [%class:%line] - %m%n"
 #========================================================================
-endpoints:
-  enabled: false

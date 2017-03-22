@@ -2,7 +2,7 @@
 
 spring:
   datasource:
-    url: jdbc:postgresql://pgsql.tangsheng.com:9999/db_tcis
+    url: jdbc:postgresql://pgsql.tangsheng.com:9999/db_tsc
     username: postgres
     password: 123456
     driverClassName: org.postgresql.Driver
@@ -50,7 +50,6 @@ ghb:
 #========================================================================
 server:
   context-path: /
-  port: 8080
 #========================================================================
 debug: true
 logging:

@@ -46,6 +46,9 @@ ghb:
   apiurldev: http://183.63.131.106:40015/extServiceTest/ghbExtService.do
   apiurlsit: http://183.63.131.106:40011/extService/ghbExtService.do
   apiurluat: http://183.63.131.106:40013/extService/ghbExtService.do
+  channelCode: p2p001
+  private3DesKey: 847CAC05A5CBAF2B
+  privateKey: MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKfJ5tcFHHIAZrLYwD/VBl/5w46sqw6NbLOPo0B2//EKQ4z8pminfSEFiBHZFl8nHF2mIG+3+NE6M+MW9J9ZHhx9tuIndI863M8N+LCJ4r1LXmWIRFIZeA5beN4E4+VswT+eYQBaVqaasD0i2xij837clTd6YkEr8KbOUqwpHoF1AgMBAAECgYBeuv4qfcc+kf1pkjiQkWwE+dWwEsqM78nkYv9PoSAFbb8PtYEaax2ZbC8TrJYV6NX6BZYgnSTMs+ihmM9JvB3kHAQ6G0UD5uxIAQ9/VXgf11hjE1ux1M3hG/NL20vCifY/8waYRu2cz3yB0HyNuaoWeFAqM77WDrPD1RcLJom3bQJBANJ1Z46tFog4RPqBMTmgO1lDu8LmZlCz9erDjcz4nS3Sj01gjET5mTVpg9v2ksip+9f7BZ5uEcOfIgs4uc741NMCQQDMGL9aCg5gyvkyB8AJ2gMIPFAeqyWIDNi2h3+0WukBJknMtjvvL8qyxxeA0FGXSojquMy3Ae8fMExOZ2oAK4OXAkBeELOUhbCIef36qTvDMebU4v1NA4W/lG/Z2kXK02QNUwtR3lFTkuvzf5G8At1gavlxc3TzdubhtIKW2WfTJkyZAkEAgIO4wgaBBTvp7DHrH4jyzdXEkXstN9z2/QCXTkbMX1fvsoKxfKw4U5h/2THTnpNlYX+aEEacfqQX+Gqv2YmM4wJBAIG9f+/1n0HU2jySqd1GdaRB4PWEpx7qEscos68VJ+Dde8T2NDsWoxNb5qtGTqmc17CSXF8Xnbun+vreBbt6jsE=
     
 #========================================================================
 server:
